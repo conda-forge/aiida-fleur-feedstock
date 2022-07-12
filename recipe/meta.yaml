@@ -62,7 +62,7 @@ outputs:
         - fleur >=1,<7
     test:
       commands:
-        - which fleur
+        - fleur_MPI -h
 
 about:
   home: https://github.com/JuDFTteam/aiida-fleur
