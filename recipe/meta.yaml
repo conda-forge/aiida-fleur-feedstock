@@ -60,6 +60,9 @@ outputs:
     requirements:
       run:
         - fleur >=1,<7
+    test:
+      commands:
+        - which fleur
 
 about:
   home: https://github.com/JuDFTteam/aiida-fleur
