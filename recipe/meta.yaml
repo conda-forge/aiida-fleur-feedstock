@@ -44,6 +44,7 @@ outputs:
         - python >=3.7
         - sqlalchemy <1.4
         - sympy
+        - mendeleev <0.10.0 #Newer versions need sqlalchemy >=1.4 (can be removed with aiida 2.X support)
       run_constrained:
         - {{ name_code }} =={{ version }}
     test:
