@@ -58,6 +58,8 @@ outputs:
     build:
       noarch: python
     requirements:
+      host:
+        - python {{ python_min }}
       run:
         - fleur >=1,<7
         - python >={{ python_min }}
